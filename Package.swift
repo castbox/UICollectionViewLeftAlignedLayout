@@ -18,6 +18,7 @@ let package = Package(
             dependencies: [],
             path: "UICollectionViewLeftAlignedLayout",
             exclude: ["Info.plist"],
+            resources: [.process("PrivacyInfo.xcprivacy")],
             publicHeadersPath: "include"
         )
     ]

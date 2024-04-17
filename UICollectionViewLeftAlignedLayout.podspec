@@ -1,4 +1,4 @@
-version = "1.2.0"
+version = "1.2.1"
 
 Pod::Spec.new do |s|
   s.name         = "UICollectionViewLeftAlignedLayout"
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Privacy' do |ss|
       ss.resource_bundles = {
-        "Privacy" => 'UICollectionViewLeftAlignedLayout/PrivacyInfo.xcprivacy'
+          s.name => 'UICollectionViewLeftAlignedLayout/PrivacyInfo.xcprivacy'
       }
   end
 end
